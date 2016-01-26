@@ -11,7 +11,7 @@ shinyUI <- fluidPage(
                       sidebarLayout(
                         sidebarPanel(
                           selectInput(inputId = "year", label = "Select Year:", selected =2014, choices = c(2013,2014,2015)),
-                          sliderInput(inputId = "month", label = "Range of Month:", min = 1, max = 12, value = c(1, 12)),
+                          sliderInput(inputId = "month", label = "Range of Month:", min = 1, max = 12, value = c(1, 3)),
                           checkboxInput(inputId="displaySelectionMean", "Display Selection and API Mean:", value = TRUE),
                           htmlOutput("html1") ),
                         mainPanel(
