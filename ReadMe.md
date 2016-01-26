@@ -1,4 +1,4 @@
-# Air Pollutant Index 2013-2015 for Banting area.
+# Air Pollutant Index (API) 2013-2015 for Banting area.
 
 ## Background
 Welcome to this Shiny application which is the course project for **Developing Data Products** module, from Coursera. 
@@ -12,7 +12,11 @@ Please take note that the API file captures data on hourly basis from 01-08-2013
 
 
 ## Navigation
-To display the data, you need to select the **Year** and **Month** from the dropdown box and the result will be displayed on right panel either on graph format or raw data format.
+To display the data, you need to select the **Year** from the _**dropdown box**_ and **Month** from the _**range slider**_ and the result will be displayed on right panel either on graph format or raw data format. The summary for the dataset will be displayed as well on _**Summary**_ tab.
+
+You can download the selected data by clicking _**Download**_ button at the bottom of _**Dataset**_ tab.
+
+On top of it, it will display the **Selection** that you have made together with the **API Mean** if you tick on the **Display Selection and API Mean** _**checkbox**_ .
 
 
 ## Project files 
